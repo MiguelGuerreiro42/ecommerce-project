@@ -8,32 +8,32 @@ const HomePage = () => (
     <div className='directory-menu'>
       <div className='menu-item'>
         <div className='content'>
-          <div className='title'>HATS</div>
-          <span className='subtitle'>SHOP NOW</span>
+          <div className='title'>BONÉS</div>
+          <span className='subtitle'>COMPRE AGORA</span>
         </div>
       </div>
       <div className='menu-item'>
         <div className='content'>
-          <div className='title'>JACKETS</div>
-          <span className='subtitle'>SHOP NOW</span>
+          <div className='title'>JAQUETAS</div>
+          <span className='subtitle'>COMPRE AGORA</span>
         </div>
       </div>
       <div className='menu-item'>
         <div className='content'>
-          <div className='title'>SHOES</div>
-          <span className='subtitle'>SHOP NOW</span>
+          <div className='title'>TÊNIS</div>
+          <span className='subtitle'>COMPRE AGORA</span>
         </div>
       </div>
       <div className='menu-item'>
         <div className='content'>
-          <div className='title'>WOMENS</div>
-          <span className='subtitle'>SHOP NOW</span>
+          <div className='title'>MULHERES</div>
+          <span className='subtitle'>COMPRE AGORA</span>
         </div>
       </div>
       <div className='menu-item'>
         <div className='content'>
-          <div className='title'>MENS</div>
-          <span className='subtitle'>SHOP NOW</span>
+          <div className='title'>HOMENS</div>
+          <span className='subtitle'>COMPRE AGORA</span>
         </div>
       </div>
     </div>
