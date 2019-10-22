@@ -21,7 +21,7 @@ class SignUp extends React.Component {
 
   /**
    * Método que irá controlar o que será executado no submit do formulário,
-   * verificando se as senhas são iguais, 
+   * verificando se as senhas são iguais,
    * autenticando e criando um usuario com email e senha no firebase e
    * reiniciando o estado do componente
    */
@@ -43,17 +43,16 @@ class SignUp extends React.Component {
 
       await createUserProfileDocument(user, { displayName });
 
-      this.setState = {
+      this.setState({
         displayName: "",
         email: "",
         password: "",
         confirmPassword: ""
-      };
+      });
     } catch (error) {
       console.error(error);
     }
   };
-
 
   /**
    * Método que irá controlar a mudança de estado dos inputs do formulário de cadastro,
@@ -61,9 +60,9 @@ class SignUp extends React.Component {
    */
   handleChange = event => {
     const { name, value } = event.target;
-    this.setState = {
+    this.setState({
       [name]: value
-    };
+    });
   };
 
   render() {
